@@ -1,5 +1,5 @@
 class Solution:
-    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
         #monotonic decreasing problem or equal
         stack = [temperatures[0]]
         index_stack = [0]
